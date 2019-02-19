@@ -1,7 +1,7 @@
 body {
     width: 100%;
     /* border: 1px solid black; */
-
+    margin: 0;
 }
 
 table {
@@ -83,8 +83,12 @@ footer {
     text-align: center;
     padding: 1px;
     color: white;
+    margin: 0;
 }
 
 img {
     max-width: 100%;
+}
+body>footer>p{
+    margin: 5px;
 }
