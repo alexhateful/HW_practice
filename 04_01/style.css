@@ -18,13 +18,14 @@ li {
     font-weight: bold;
     margin-right: 3.2px;
     margin-left: -1px;
-    ;
+    cursor: pointer;
 }
 
 li:hover {
     color: #064783;
     text-shadow: -1px -1px #000,
         0 1px 0 #444;
+        /* padding: 15px; */
 }
 .container {
     max-width: 1140px;
@@ -39,8 +40,7 @@ li:hover {
 }
 
 ul {
-    /* padding-left: 570px; */
-    width: 100%;
+    width: 90%;
     text-align: right;
 }
 
